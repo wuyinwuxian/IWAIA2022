@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+.speakers img {width: 100%;margin-bottom:5px;}
+@media (min-width: 1200px) {
+.speakers>div {width: 104%;}
+.speakers>div>div {width: 25%;}
+}
+ul.nt_home li:after {content: "";display: block;height: 1px;margin-top: 0.1em;margin-bottom: 0.1em;background: #eee;}
+ul.nt_home li:last-child:after {display: none;}
+@media (max-width: 992px) {
+.key-speakers ul:first-of-type {margin-bottom: 0;}
+}
+.hmagencytd { text-align:center; font-size:10px; line-height:1.2em; vertical-align:top; width:16% }
+.spkbox {color:#222; padding:5px; height:80px; width:100%; font-size:14px; font-weight:bold; line-height:1.1em; text-align:center;}
+.hmspkaffil { font-size:12px; line-height:1.1em; margin-top:10px; text-align:center; font-weight:normal;}
+.spkrowback { padding:10px; }
+.dueinfo {color: #F8F94D; font-size:13px }
+.agencywell { text-align:center;font-size:10px; line-height:1.2em; vertical-align:top; background-image:url(img/backgroundcorneragency.png); background-position:bottom right; background-repeat:no-repeat;background-color:#ffffff;height:150px }
+video {width: 100%;height: auto;}
+
+
+#ntt {margin-top: 1.75em;border: 1px solid;border-color:#207FB6;-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;-webkit-box-shadow: -5px 5px 10px #ddeeff; -moz-box-shadow: -5px 5px 10px #ddeeff;}
+#ntt ul {list-style: none;padding: 1px;}
+#ntt li {padding: 1px;padding-left: 10px;-webkit-transition: background-color 500ms;}
+#ntt li:nth-child(odd) {background-color: #ddeeff;}
+#ntt li:hover {background-color: #0081b8;}
+#ntt a {display: block;padding: 1px;text-decoration: none;-webkit-transition: color 1s;}
+#ntt a:hover {color: #fff;}
+.mainForm{margin:0 auto;}
+.abformTitle{float:left; padding:5px; width:200px;}
+.abInput{font-style:italic; color:#999; padding:2px; border-radius:3px; border:1px solid #999; line-height:20px; width:200px;}
+.abInput1{font-style:italic; color:#999; padding:2px; border-radius:3px; border:1px solid #999; line-height:20px; width:207px;}
+.fomr a:link, .form a:visited{color:#004080; text-decoration:none; background:url(images/arrow-link.png) no-repeat left; padding-left:20px; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; transition: all .3s ease-in-out;}
+.form a:hover{color:#ff6600; text-decoration:underline; background:url(images/arrow-hover.png) no-repeat left; padding-left:20px; margin-left:5px; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; transition: all .3s ease-in-out;}
+.abButtons{width:100px; height:30px; margin-left:70px; margin-top:20px;}
+.abHeading{padding:5px;}
+.abHeading h1{color:#F00;}
